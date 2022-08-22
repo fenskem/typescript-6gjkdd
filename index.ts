@@ -355,6 +355,8 @@ comp.SetOutterArc(50, 90);
 
 comp.Draw();
 
+alertt("hallo");
+
 
 
 
