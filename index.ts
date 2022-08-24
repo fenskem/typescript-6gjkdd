@@ -335,8 +335,38 @@ export class CompositeCurve implements IDraw {
 
   }
 
+  public SetArc(type: ArcType, radius: number, angle: number){ 
+
+    let l = this.lastElement;
+
+    //#region Fall 1:
+
+    if(Math.abs(l.endPoint.y - l.startPoint.y)<0.001){
+
+    }
+    
+    //#endregion
+
+    //#region Fall 2:
+
+    //#endregion
+
+    //#region Fall 3:
+
+    //#endregion
+
+    //#region Fall 4:
+
+    //#endregion
+
+  }
+
 }
 
+enum ArcType {
+  Inner,
+  Oute
+}
 
 let pS = new Poind2d(450,0);
 
